@@ -11,7 +11,7 @@
 <body>
 	<div class="header" align="center">
 		<div align="center">
-			<img src="image/kue.png" class="bg">
+			<img src="Roti Naan/logo.png" class="bg">
 		</div>
 		<nav class="nav navbar-menu">
 			<ul class="nav justify-content-center">
@@ -19,17 +19,68 @@
     				<a class="nav-link active" href="coba.html">Home</a>
 				</li>
   				<li class="nav-item">
-    				<a class="nav-link" href="about.html">About</a>
+    				<a class="nav-link" href="about.html">Sejarah</a>
   				</li>
   				<li class="nav-item">
-    				<a class="nav-link" href="#">Gallery</a>
+    				<a class="nav-link" href="#">Manfaat</a>
   				</li>
 					<li class="nav-item">
-    				<a class="nav-link" href="#">Receipt</a>
+    				<a class="nav-link" href="#">Gizi</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" href="#">Cara Buat</a>
+  				</li>
+  				<li class="nav-item">
+    				<a class="nav-link" href="#">Kreasi</a>
   				</li>
 			</ul>
 		</nav>
 	</div>
+
+	<div id="da-slider" class="da-slider">
+        <div class="recommended_menu" align="center">
+         <p>Roti Naan</p>
+       </div>
+        <div class="da-slide">
+          <h2>Serabi 1</h2>
+          <a href="#" class="da-link">Lihat</a>
+          <div class="da-img"><img src="image/s1.jpg" alt="image01" /></div>
+        </div>
+        <div class="da-slide">
+          <h2>Serabi 2</h2>
+          <br>
+          <br>
+          <a href="#" class="da-link">Lihat</a>
+          <div class="da-img"><img src="image/s2.jpg" alt="image01" /></div>
+        </div>
+        <div class="da-slide">
+          <h2>Serabi 3</h2>
+          <a href="#" class="da-link">Lihat</a>
+          <div class="da-img"><img src="image/s3.jpg" alt="image01" /></div>
+        </div>
+        <nav class="da-arrows">
+          <span class="da-arrows-prev"></span>
+          <span class="da-arrows-next"></span>
+        </nav>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.cslider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+
+			});
+		</script>
 
 </body>
 </html>
