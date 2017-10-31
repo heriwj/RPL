@@ -1,11 +1,12 @@
 Roti naan (roti India)
 
 Nilai nutrisi per 100 g (3,5 oz)
-Karbohidrat	50.43
+Kalori 308
+Karbohidrat	50.3
 - Gula	3.55
 - Serat pangan	2.2
-Lemak	5.65
-Protein	9.62
+Lemak	7.6
+Protein	8.8
 Tiamina (Vit. B1)	0.78 mg (60%)
 Riboflavin (Vit. B2)	0.51 mg (34%)
 Niasin (Vit. B3)	5.84 mg (39%)
