@@ -56,7 +56,7 @@ li{
 .da-slider{
   width: 100%;
   min-width: 480px;
-  height: 450px;
+  height: 800px;
   position: relative;
   margin: 3px auto;
   overflow: hidden;
@@ -99,7 +99,6 @@ li{
   left: 110%;
 }
 .da-slider-fb .da-slide h2,
-.da-slider-fb .da-slide p,
 .da-slider-fb .da-slide .da-link{
   left: 10%;
   opacity: 1;
@@ -760,6 +759,7 @@ body{
 li{
 	border: 3px solid;
 	border-color: rgb(240, 128, 128);
+  width: 150px;
 }
 
 .nav-item{
@@ -770,7 +770,8 @@ li{
 
 .navbar-menu{
 	margin-top: 20px;
-	width: 330px;
+	width: 300px;
+  margin-left: -600px;
 }
 
 .navbar-menu > ul li a{
@@ -806,7 +807,7 @@ li{
 .da-slider{
   width: 80%;
   min-width: 480px;
-  height: 450px;
+  height:700px;
   position: relative;
   margin: 3px auto;
   overflow: hidden;
